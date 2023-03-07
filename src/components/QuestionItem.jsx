@@ -22,7 +22,7 @@ export default function QuestionItem(props) {
               <li key={index}>
                 <button
                   onClick={(event) =>
-                    props.selectAnswerFcn(event, index, props.index)
+                    props.selectAnswerFcn(event, index, props.index, he.decode(quiz.correct_answer))
                   }
                   className="choicesBtn"
                 >
