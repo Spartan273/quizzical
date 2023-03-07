@@ -25,7 +25,7 @@ function App() {
         <div>
           <h1 className="title">Quizzical</h1>
           <p className="description">The trivia game</p>
-          <button className="startQuizBtn" onClick={generateQuiz}>Start quiz</button>
+          <button className="quizBtn" onClick={generateQuiz}>Start quiz</button>
         </div>
       ) : (
         <QuestionsList quiz={quiz}/>

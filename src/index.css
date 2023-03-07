@@ -1,9 +1,9 @@
-body{
+body {
   margin: 0;
 }
 
-h1{
-  font-family: 'Karla', sans-serif;
+h1 {
+  font-family: "Karla", sans-serif;
   color: #293264;
 }
 
@@ -11,12 +11,17 @@ ul {
   list-style-type: none;
 }
 
-.title{
+button {
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.title {
   margin: 0;
   padding: 0;
 }
 
-.questionTitle{
+.questionTitle {
   display: flex;
   justify-content: left;
   text-align: left;
@@ -24,22 +29,22 @@ ul {
   margin-left: 0;
 }
 
-.startQuizBtn{
-  font-family: 'Inter', sans-serif;
-  background-color: #4D5B9E;
-  color: #F5F7FB;
+.quizBtn {
+  font-family: "Inter", sans-serif;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
   border: 0;
   border-radius: 5px;
   padding: 1rem 4rem;
   font-size: medium;
 }
 
-.description{
-  font-family: 'Inter', sans-serif;
-  margin-top:0.2rem
+.description {
+  font-family: "Inter", sans-serif;
+  margin-top: 0.2rem;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -47,25 +52,32 @@ ul {
   align-items: center;
   height: 100vh;
 
-  background-color: #F5F7FB;
-  background-image:
-  radial-gradient(ellipse 350px 160px at bottom left, #DEEBF8 100%, transparent 0),
-  radial-gradient(ellipse 350px 180px at top right, #FFFAD1 100%, transparent 0);
+  background-color: #f5f7fb;
+  background-image: radial-gradient(
+      ellipse 350px 160px at bottom left,
+      #deebf8 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      ellipse 350px 180px at top right,
+      #fffad1 100%,
+      transparent 0
+    );
 }
 
-.choices{
+.choices {
   display: flex;
   justify-content: left;
 }
 
-.choicesBtn{
+.choicesBtn {
   margin: 20px;
-  background-color: #F5F7FB;
-  padding: .5rem 2rem;
+  background-color: #f5f7fb;
+  padding: 0.5rem 2rem;
   border-radius: 10px;
 }
 
-.questionsContainer{
+.questionsContainer {
   margin-right: 300px;
   margin-left: 300px;
   margin-top: 500px;
